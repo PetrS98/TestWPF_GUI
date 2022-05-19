@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2760214.png" />
+    <None Remove="cz.jpg" />
+    <None Remove="login.png" />
+    <None Remove="NexenLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2760214.png" />
+    <Resource Include="cz.jpg" />
+    <Resource Include="login.png" />
+    <Resource Include="NexenLogo.png" />
+  </ItemGroup>
+
+</Project>
